@@ -1,0 +1,22 @@
+# Parameters that describe the planet (or celestial body)
+# Units in International System
+NAME = Earth # Planet name
+MASS =  5.972e24 # Planet mass [kg]
+RADIUS = 6371e3 # Plate radius [m]
+
+# Position of the planet in Cartesian Coordinates
+Rx = 0.0 # x-coordinate [m]
+Ry = 0.0 # y-coordinate [m]
+Rz = 0.0 # z-coordinate [m]
+
+# Velocity of the planet in Cartesian Coordinates
+Vx = 0.0 # velocity in the x-direction [m/s]
+Vy = 0.0 # velocity in the x-direction [m/s]
+Vz = 0.0 # velocity in the z-direction [m/s]
+
+# Colour representation (for plotting purposes)
+COLOUR = blue
+
+
+
+

@@ -1,0 +1,17 @@
+####### Physical constants #######
+
+G = 1 # Gravitation constant
+
+####### Numerical constants #######
+
+# Time constants
+
+At = 0.0001 # Numerical time step
+At_save = 0.01 # Time step interval for saving the data
+t_max = 12 # Maximum computational time
+
+# Numerical integration constants
+
+EPSILON = 1e-9 # Convergence error
+beta = 0.5 # Integration type (0 = implicit, 1 = explicit, 0.5 = Crank-Nicolson)
+max_it = 1e2 # Maximum iterations allowed within one time step		
