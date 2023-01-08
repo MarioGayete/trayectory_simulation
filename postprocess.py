@@ -72,7 +72,7 @@ def position_3Drepresentation(bodies, results_folder = 'Results/', input_subfold
         plt.close()
     
     # Generating the video from the plots
-    video_generation_from_images(results_folder + output_video + 'video.avi', results_folder + output_subfolder, 
+    video_generation_from_images(results_folder + output_video + 'video3D.avi', results_folder + output_subfolder, 
                                  current_matrix.shape[0])
     
     return 0
@@ -143,7 +143,7 @@ def position_2Drepresentation(bodies, results_folder = 'Results/', input_subfold
         plt.close()
     
     # Generating the video from the plots
-    video_generation_from_images(results_folder + output_video + 'video.avi', results_folder + output_subfolder, 
+    video_generation_from_images(results_folder + output_video + 'video2D.avi', results_folder + output_subfolder, 
                                  current_matrix.shape[0])
     
     return 0
